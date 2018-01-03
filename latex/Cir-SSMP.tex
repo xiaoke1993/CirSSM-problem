@@ -13,7 +13,7 @@
 \newpage
 \title{A Heuristic for the Stowage Stack Minimization Problem with K-Rehandle Constraint under the circular route}
 \begin{abstract}
-% to do: 
+% to do:
 write the abstract
 \end{abstract}
 \begin{keyword}
@@ -36,6 +36,9 @@ In a general case, container ship serves many different ports on each voyage.
 A stowage planning for container ship made at one port must take account of the influence on subsequent ports.
 Therefore, the complexity of stowage planning problem increases due to its multi-ports nature.
 
+Under the annular route, there are different kinds of containers at each port to be loaded. 
+Under the linear route in \cite{wang2014stowage}, the destination port of container is larger than the origin port of containers
+Due to the characteristic of circular routine, we have to design more data structure to store different container types and simulate different loading and unloading situations.
 \section{Literature review}
 % to read and review literatures
 
@@ -51,7 +54,7 @@ Anyway, all instances have been generated in such a way to stress the capability
 We divide our instances into three parts according to the size of limit height: Small Ship with H equals to 4 and N equals to 100; Medium Ship with H equals to 8 and N is selected from {400, 1000}; Large Ship with H equals to 12 and N equals to 2000.
 There are some assumptions for the convenience of our research:
 \begin{itemize}
-\item	All the containers have the same size, 20 feet containers;
+\item	All the containers have the same size, twenty-foot equivalent units (TEU) containers;
 \item	Containers at each port for each loop have the same quantities and types;
 \item	The vessel has a limit height considering the security and balance of the vessel;
 \item	After the unloading and loading operations at each port, there are at most K rehandles exist;
@@ -65,13 +68,11 @@ There are some assumptions for the convenience of our research:
 \section{Methodology}
 We have constructed a heuristic algorithm which greedy rules are adapted.
 There are main three procedures in our algorithm: unloading, sorting and loading.
-Different from the SSM in \cite{wang2014stowage}, there are different containers on the vessel at each port for C-SSP.
-Due to the characteristic of circular routine, we have to design more data structure to store different container types and simulate different loading and unloading situations.
 Considering the existing of re-handles, our strategies to handle loading and unloading operations are different.
 The rules become strict when it comes to meeting the conditions that there are certain re-handles given.
 However, the main ideas are extremely similar.
 The stacks on the vessel are divided into different categories according to whether it will occur re-handle when the loading container is loaded into the stack.
-Hereafter, we give them different priority to reduce the number of used stacks as much as possible. 
+Hereafter, we give them different priority to reduce the number of used stacks as much as possible.
 The priority of them is following:
 \begin{itemize}
 \item Partial stacks with no re-handles occurring.
