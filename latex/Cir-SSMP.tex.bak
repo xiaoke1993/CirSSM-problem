@@ -1,17 +1,18 @@
+
 \documentclass[review,3p,times,authoryear,12pt]{elsarticle}
-%\usepackage{amsmath,amsthm,amssymb}
+\usepackage{amsmath,amsthm,amssymb}
 \usepackage{algorithm}
-%\usepackage{graphicx,subfigure}
-\usepackage{clrscode3e}
+\usepackage{graphicx,subfigure}
+\usepackage{clrscode}
 \usepackage{enumerate}
-%\usepackage{multirow,endfloat}
-%\graphicspath{{figure/}}
-%\newtheorem{proposition}{Proposition}
+\usepackage{multirow,endfloat}
+\graphicspath{{figure/}}
+\newtheorem{proposition}{Proposition}
 
 \begin{document}
 \begin{frontmatter}
 \newpage
-\title{A Heuristic for the Stowage Stack Minimization Problem with K-Rehandle Constraint under the circular route}
+\title{A Heuristic for the Stowage Stack Minimization Problem with K-Rehandle Constraint in the circular route}
 \begin{abstract}
 The container stowing planning have been investigated widely from different aspects considering different objectives.
 In our previous research, we proposed the stowage stack minimization problem(SSMP)which investigated a stowage planning problem when carriers have the obligation to ship all the given containers in different ports, with the objective to utilize the fewest
@@ -45,7 +46,7 @@ Therefore, the complexity of stowage planning problem increases due to its multi
 In the linear routes discussed in \cite{wang2014stowage}, the destination port of container is larger than the origin port of containers.
 Due to the characteristic of circular routes, there are different kinds of containers at each port to be loaded.
 For example, some containers are loaded in the current round and discharged in the next round.
-%we have to design more data structure to store different container types and simulate different loading and unloading situations.
+we have to design more data structure to store different container types and simulate different loading and unloading situations.
 \section{Literature review}
 % to read and review literatures
 \cite{ambrosino2015mip} proposed a Mixed Integer Programming (MIP) heuristic aimed at determining stowage plans in circular routes for container ships so as to give support for the ship coordinator and the terminal planner.
@@ -79,8 +80,11 @@ There are some assumptions for the convenience of our research:
 \item	Other constraints to ensure the security of vessel are satisfied.
 \end{itemize}
 
+\clearpage
+
 \subsection{Integer model}
 
+\clearpage
 
 \section{Methodology}
 \label{sec:algo}
@@ -118,7 +122,7 @@ The priority of them is following:
 \end{itemize}
 Obviously, the first choice will be removed if the problem meet the constraints with zero rehandle.
 
-Algorithm \ref{alg:1} solves instances of SSMP.
+Algorithm \ref{alg:1} solves instances of CSSMP.
 
 \begin{algorithm}[htbp]
   \caption{A heuristic algorithm for the CSSMP}
@@ -211,15 +215,102 @@ if no rehandle occurs, we just choose the current stack that we are discussing.
 Third, update the height of chosen stack and the number of rehandles in current layout.
 
 
+
+\clearpage
+
 \section{Experiments and Analysis}
 For each containership, five instances have been generated; each instance differs from the others for the transport demand to satisfy.
 Anyway, all instances have been generated in such a way to stress the capability of the heuristic approach to obtain feasible and effectiveness solutions in a short amount of time.
 
 We divide our instances into three parts according to the size of limit height: Small Ship with H equals to 4 and N is selected from {100,400}; Medium Ship with H equals to 8 and N is selected from {1000}; Large Ship with H equals to 12 and N equals to 2000.
 
-The following tables and figures will show us something:
+The partial results of our heuristic algorithm run by computer are in the following tables:
 
 
+The following figures will show us the results of heuristic algorithm:
+
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/small.png}}
+\caption{Results of small size in heuristic algorithm.}
+\label{fig 1:graph}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/medium.png}}
+\caption{Results of medium size in heuristic algorithm.}
+\label{fig 2:graph}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/large.png}}
+\caption{Results of large size in heuristic algorithm.}
+\label{fig 3:graph}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/cir-port.png}}
+\caption{Relationship between loop and port with small size in heuristic algorithm.}
+\label{fig 4:graph}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/port-cir.png}}
+\caption{Relationship between port and loop with small size in heuristic algorithm.}
+\label{fig 5:graph}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/zhexian.png}}
+\caption{line chart of relationship between port and loop in heuristic algorithm}
+\label{fig 6:graph}
+\end{figure}
+
+
+The following figures will show us the results of heuristic algorithm:
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/ran/small.png}}
+\caption{Results of small size in random algorithm.}
+\label{fig 7:graph}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/ran/cir-port.png}}
+\caption{Relationship between loop and port with small size in random algorithm.}
+\label{fig 8:graph}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/ran/port-cir.png}}
+\caption{Relationship between port and loop with small size in random algorithm.}
+\label{fig 9:graph}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/ran/zhexian.png}}
+\caption{line chart of relationship between port and loop in random algorithm}
+\label{fig 10:graph}
+\end{figure}
 
 We get the following conclusions after analysing our experiments results.
 \begin{enumerate}
@@ -258,13 +349,14 @@ After the first round, the layouts of some ports contains two types of container
 \end{proof}
 
 \begin{proposition}
-the number of used stacks is no greater than \lceil\frac{2*N_p}{H}\rceil.
+the number of used stacks is no greater than $\lceil\frac{2*N_p}{H}\rceil$.
 \end{proposition}
 
 \begin{proof}
-Considering the characteristics in the circular route, the upper bound of our problem becomes \lceil\frac{2*N_p}{H}\rceil since the number of containers at a single port can¡¯t reach 2*N.
+Considering the characteristics in the circular route, the upper bound of our problem becomes $\lceil\frac{2*N_p}{H}\rceil$ since the number of containers at a single port can¡¯t reach 2*N.
 \end{proof}
 
+\clearpage
 
 \section{Conclusion}
 We take the circular routes into account in this paper and we construct heuristic algorithm to work out  the stowing planning.

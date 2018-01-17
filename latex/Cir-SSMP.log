@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.9)  17 JAN 2018 20:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.9)  18 JAN 2018 00:10
 entering extended mode
 **Cir-SSMP.tex
 (E:\Github\CirSSM-problem\latex\Cir-SSMP.tex
@@ -707,19 +707,9 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 30.
 
 (D:\CTEX\MiKTeX\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
+) [1
 
-Package natbib Warning: Citation `wang2014stowage' on page 1 undefined on input
- line 46.
-
-[1
-
-{D:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
-
-Package natbib Warning: Citation `ambrosino2015mip' on page 2 undefined on inpu
-t line 52.
-
-[2]
+{D:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}] [2]
 Missing character: There is no ¡ in font txr!
 Missing character: There is no ¯ in font txr!
 Missing character: There is no ¡ in font txr!
@@ -736,149 +726,157 @@ Missing character: There is no ¡ in font txr!
 Missing character: There is no ¯ in font txr!
 Missing character: There is no ¡ in font txr!
 Missing character: There is no ¯ in font txr!
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 75.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 76.
  (D:\CTEX\MiKTeX\tex\latex\txfonts\omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 75.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 76.
  [3] [4
 
 ] [5
 
 ]
 Warning: Indentation ends at level -1 in codebox on page 6.
-[6] [7] [8] (Cir-SSMP.fff) [9
+[6] [7] [8] (Cir-SSMP.ttt) (Cir-SSMP.fff) [9
 
-]
+] [10]
 Missing character: There is no ¡ in font txr!
 Missing character: There is no ¯ in font txr!
 Missing character: There is no ¡ in font txr!
 Missing character: There is no ¯ in font txr!
- [10] [11]
+ [11] [12]
 (E:\Github\CirSSM-problem\latex\Cir-SSMP.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-AED endfloat: Processing end Figures and Tables [12
+AED endfloat: Processing end Figures and Tables [13
 
 ]
 (E:\Github\CirSSM-problem\latex\Cir-SSMP.lof)
 \tf@lof=\write6
- [13
+ [14
 
 
 ]
 (E:\Github\CirSSM-problem\latex\Cir-SSMP.fff
-<figure/heu/small.png, id=51, 470.7186pt x 246.6816pt>
+<figure/heu/small.png, id=54, 470.7186pt x 246.6816pt>
 File: figure/heu/small.png Graphic file (type png)
 
 <use figure/heu/small.png>
 Package pdftex.def Info: figure/heu/small.png used on input line 4.
 (pdftex.def)             Requested size: 470.71744pt x 246.68098pt.
- [14
+ [15
 
  <E:/Github/CirSSM-problem/latex/figure/heu/small.png>] <figure/heu/medium.png,
- id=56, 586.3506pt x 249.0906pt>
+ id=59, 586.3506pt x 249.0906pt>
 File: figure/heu/medium.png Graphic file (type png)
 
 <use figure/heu/medium.png>
 Package pdftex.def Info: figure/heu/medium.png used on input line 13.
 (pdftex.def)             Requested size: 586.34917pt x 249.08998pt.
- [15
+ [16
 
  <E:/Github/CirSSM-problem/latex/figure/heu/medium.png>] <figure/heu/large.png,
- id=61, 532.8708pt x 251.4996pt>
+ id=64, 532.8708pt x 251.4996pt>
 File: figure/heu/large.png Graphic file (type png)
 
 <use figure/heu/large.png>
 Package pdftex.def Info: figure/heu/large.png used on input line 22.
 (pdftex.def)             Requested size: 532.86949pt x 251.49898pt.
- [16
+ [17
 
  <E:/Github/CirSSM-problem/latex/figure/heu/large.png>] <figure/heu/cir-port.pn
-g, id=66, 546.3612pt x 248.127pt>
+g, id=69, 546.3612pt x 248.127pt>
 File: figure/heu/cir-port.png Graphic file (type png)
 
 <use figure/heu/cir-port.png>
 Package pdftex.def Info: figure/heu/cir-port.png used on input line 31.
 (pdftex.def)             Requested size: 546.35986pt x 248.12637pt.
- [17
+ [18
 
  <E:/Github/CirSSM-problem/latex/figure/heu/cir-port.png>] <figure/heu/port-cir
-.png, id=71, 592.614pt x 272.217pt>
+.png, id=74, 592.614pt x 272.217pt>
 File: figure/heu/port-cir.png Graphic file (type png)
 
 <use figure/heu/port-cir.png>
 Package pdftex.def Info: figure/heu/port-cir.png used on input line 40.
 (pdftex.def)             Requested size: 592.61255pt x 272.21631pt.
- [18
+ [19
 
  <E:/Github/CirSSM-problem/latex/figure/heu/port-cir.png>] <figure/heu/zhexian.
-png, id=76, 466.3824pt x 257.2812pt>
+png, id=80, 466.3824pt x 257.2812pt>
 File: figure/heu/zhexian.png Graphic file (type png)
 
 <use figure/heu/zhexian.png>
 Package pdftex.def Info: figure/heu/zhexian.png used on input line 49.
 (pdftex.def)             Requested size: 466.38126pt x 257.28058pt.
- [19
+ [20
 
  <E:/Github/CirSSM-problem/latex/figure/heu/zhexian.png>] <figure/ran/small.png
-, id=83, 566.5968pt x 263.5446pt>
+, id=86, 566.5968pt x 263.5446pt>
 File: figure/ran/small.png Graphic file (type png)
 
 <use figure/ran/small.png>
 Package pdftex.def Info: figure/ran/small.png used on input line 58.
 (pdftex.def)             Requested size: 566.59541pt x 263.54395pt.
- [20
+ [21
 
  <E:/Github/CirSSM-problem/latex/figure/ran/small.png>] <figure/ran/cir-port.pn
-g, id=88, 511.1898pt x 264.0264pt>
+g, id=91, 511.1898pt x 264.0264pt>
 File: figure/ran/cir-port.png Graphic file (type png)
 
 <use figure/ran/cir-port.png>
 Package pdftex.def Info: figure/ran/cir-port.png used on input line 67.
 (pdftex.def)             Requested size: 511.18855pt x 264.02574pt.
- [21
+ [22
 
  <E:/Github/CirSSM-problem/latex/figure/ran/cir-port.png>] <figure/ran/port-cir
-.png, id=93, 608.9952pt x 251.0178pt>
+.png, id=96, 608.9952pt x 251.0178pt>
 File: figure/ran/port-cir.png Graphic file (type png)
 
 <use figure/ran/port-cir.png>
 Package pdftex.def Info: figure/ran/port-cir.png used on input line 76.
 (pdftex.def)             Requested size: 608.99371pt x 251.01718pt.
- [22
+ [23
 
  <E:/Github/CirSSM-problem/latex/figure/ran/port-cir.png>] <figure/ran/zhexian.
-png, id=98, 435.0654pt x 238.491pt>
+png, id=101, 435.0654pt x 238.491pt>
 File: figure/ran/zhexian.png Graphic file (type png)
 
 <use figure/ran/zhexian.png>
 Package pdftex.def Info: figure/ran/zhexian.png used on input line 85.
 (pdftex.def)             Requested size: 435.06432pt x 238.4904pt.
- [23
+ [24
 
  <E:/Github/CirSSM-problem/latex/figure/ran/zhexian.png>]) (E:\Github\CirSSM-pr
-oblem\latex\Cir-SSMP.aux) ) 
+oblem\latex\Cir-SSMP.lot)
+\tf@lot=\write7
+ [25
+
+
+]
+(E:\Github\CirSSM-problem\latex\Cir-SSMP.ttt [26
+
+] [27
+
+])
+(E:\Github\CirSSM-problem\latex\Cir-SSMP.aux) ) 
 Here is how much of TeX's memory you used:
- 4315 strings out of 495354
- 53869 string characters out of 3183859
- 114244 words of memory out of 3000000
- 7345 multiletter control sequences out of 15000+200000
+ 4329 strings out of 495354
+ 54189 string characters out of 3183859
+ 116327 words of memory out of 3000000
+ 7353 multiletter control sequences out of 15000+200000
  30557 words of font info for 75 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,8n,34p,499b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/
-CTEX/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><D:/CTEX/MiKTeX/fonts/type1/pub
-lic/txfonts/rtxmi.pfb><D:/CTEX/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><D:/C
-TEX/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><D:/CTEX/MiKTeX/fonts/type1/pub
-lic/txfonts/txsy.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/CTEX/
-MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on Cir-SSMP.pdf (23 pages, 284435 bytes).
+{D:/CTEX/MiKTeX/fonts/enc/dvips/
+fontname/8r.enc}<D:/CTEX/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><D:/CTEX/Mi
+KTeX/fonts/type1/public/txfonts/rtxmi.pfb><D:/CTEX/MiKTeX/fonts/type1/public/tx
+fonts/rtxr.pfb><D:/CTEX/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><D:/CTEX/Mi
+KTeX/fonts/type1/public/txfonts/txsy.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/
+utmb8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/CTEX/MiKTeX/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on Cir-SSMP.pdf (27 pages, 288939 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
