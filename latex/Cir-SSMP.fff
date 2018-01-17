@@ -1,0 +1,90 @@
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/small.png}}
+\caption{Results of small size in heuristic algorithm.}
+\label{fig 1:graph}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/medium.png}}
+\caption{Results of medium size in heuristic algorithm.}
+\label{fig 2:graph}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/large.png}}
+\caption{Results of large size in heuristic algorithm.}
+\label{fig 3:graph}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/cir-port.png}}
+\caption{Relationship between loop and port with small size in heuristic algorithm.}
+\label{fig 4:graph}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/port-cir.png}}
+\caption{Relationship between port and loop with small size in heuristic algorithm.}
+\label{fig 5:graph}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/heu/zhexian.png}}
+\caption{line chart of relationship between port and loop in heuristic algorithm}
+\label{fig 6:graph}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/ran/small.png}}
+\caption{Results of small size in random algorithm.}
+\label{fig 7:graph}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/ran/cir-port.png}}
+\caption{Relationship between loop and port with small size in random algorithm.}
+\label{fig 8:graph}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/ran/port-cir.png}}
+\caption{Relationship between port and loop with small size in random algorithm.}
+\label{fig 9:graph}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\setlength{\abovecaptionskip}{10pt}
+\resizebox{1.0\textwidth}{!}{\includegraphics{figure/ran/zhexian.png}}
+\caption{line chart of relationship between port and loop in random algorithm}
+\label{fig 10:graph}
+\end{figure}
+\efloatseparator
+ 
