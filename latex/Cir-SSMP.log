@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.9)  18 JAN 2018 00:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.9)  18 JAN 2018 23:19
 entering extended mode
 **Cir-SSMP.tex
 (E:\Github\CirSSM-problem\latex\Cir-SSMP.tex
@@ -857,13 +857,17 @@ oblem\latex\Cir-SSMP.lot)
 
 ] [27
 
+] [28
+
+] [29
+
 ])
 (E:\Github\CirSSM-problem\latex\Cir-SSMP.aux) ) 
 Here is how much of TeX's memory you used:
- 4329 strings out of 495354
- 54189 string characters out of 3183859
- 116327 words of memory out of 3000000
- 7353 multiletter control sequences out of 15000+200000
+ 4331 strings out of 495354
+ 54210 string characters out of 3183859
+ 124345 words of memory out of 3000000
+ 7355 multiletter control sequences out of 15000+200000
  30557 words of font info for 75 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,8n,34p,499b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -874,9 +878,9 @@ fonts/rtxr.pfb><D:/CTEX/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><D:/CTEX/Mi
 KTeX/fonts/type1/public/txfonts/txsy.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/
 utmb8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/CTEX/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on Cir-SSMP.pdf (27 pages, 288939 bytes).
+Output written on Cir-SSMP.pdf (29 pages, 291086 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
