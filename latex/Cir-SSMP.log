@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.9)  18 JAN 2018 23:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.9)  22 JAN 2018 23:03
 entering extended mode
 **Cir-SSMP.tex
 (E:\Github\CirSSM-problem\latex\Cir-SSMP.tex
@@ -684,26 +684,26 @@ File: ot1txr.fd 2000/12/15 v3.1
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+txmia on input line 30.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 32.
 (D:\CTEX\MiKTeX\tex\latex\txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 30.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 32.
 
 (D:\CTEX\MiKTeX\tex\latex\txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 30.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 32.
 
 (D:\CTEX\MiKTeX\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -726,12 +726,12 @@ Missing character: There is no ¡ in font txr!
 Missing character: There is no ¯ in font txr!
 Missing character: There is no ¡ in font txr!
 Missing character: There is no ¯ in font txr!
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 81.
  (D:\CTEX\MiKTeX\tex\latex\txfonts\omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 76.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 81.
  [3] [4
 
 ] [5
@@ -878,7 +878,7 @@ fonts/rtxr.pfb><D:/CTEX/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><D:/CTEX/Mi
 KTeX/fonts/type1/public/txfonts/txsy.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/
 utmb8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/CTEX/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on Cir-SSMP.pdf (29 pages, 291086 bytes).
+Output written on Cir-SSMP.pdf (29 pages, 291215 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
