@@ -5,10 +5,58 @@ Ambrosino, D., Paolucci, M., \& Sciomachen, A. (2015).
 \newblock A mip heuristic for multi port stowage planning.
 \newblock {\em Transportation Research Procedia}, 10, 725--734.
 
+\bibitem[Aslidis, 1990]{aslidis1990minimizing}
+Aslidis, A. (1990).
+\newblock Minimizing of overstowage in container ship operations.
+\newblock {\em Operational Research}, 90, 457--471.
+
+\bibitem[Avriel \& Penn, 1993]{avriel1993exact}
+Avriel, M. \& Penn, M. (1993).
+\newblock Exact and approximate solutions of the container ship stowage
+  problem.
+\newblock {\em Computers \& industrial engineering}, 25(1-4), 271--274.
+
+\bibitem[Avriel et~al., 2000]{avriel2000container}
+Avriel, M., Penn, M., \& Shpirer, N. (2000).
+\newblock Container ship stowage problem: complexity and connection to the
+  coloring of circle graphs.
+\newblock {\em Discrete Applied Mathematics}, 103(1), 271--279.
+
+\bibitem[Avriel et~al., 1998]{avriel1998stowage}
+Avriel, M., Penn, M., Shpirer, N., \& Witteboon, S. (1998).
+\newblock Stowage planning for container ships to reduce the number of shifts.
+\newblock {\em Annals of Operations Research}, 76, 55--71.
+
+\bibitem[Botter \& Brinati, 1991]{botter1991stowage}
+Botter, R. \& Brinati, M. (1991).
+\newblock Stowage container planning: A model for getting an optimal solution.
+\newblock In {\em Proceedings of the IFIP TC5/WG5. 6 Seventh International
+  Conference on Computer Applications in the Automation of Shipyard Operation
+  and Ship Design, VII}  (pp.\ 217--229).: North-Holland Publishing Co.
+
+\bibitem[Flor, 1998]{flor1998heuristic}
+Flor, M. (1998).
+\newblock Heuristic algorithms for solving the container ship stowage problem.
+\newblock {\em Master's thesis, Technion, Haifa, Isreal}.
+
+\bibitem[Horn, 2000]{horn2000branch}
+Horn, G. (2000).
+\newblock {\em A branch and bound algorithm for the container ship stowage
+  problem}.
+\newblock PhD thesis, M. Sc. Thesis, Faculty of Industrial Engineering and
+  Management, Technion, Haifa, Israel (in Hebrew).
+
 \bibitem[Wang et~al., 2014]{wang2014stowage}
 Wang, N., Zhang, Z., \& Lim, A. (2014).
 \newblock The stowage stack minimization problem with zero rehandle constraint.
 \newblock In {\em International Conference on Industrial, Engineering and Other
   Applications of Applied Intelligent Systems}  (pp.\ 456--465).: Springer.
+
+\bibitem[Zhang \& Lee, 2016]{zhang2016multiobjective}
+Zhang, Z. \& Lee, C.-Y. (2016).
+\newblock Multiobjective approaches for the ship stowage planning problem
+  considering ship stability and container rehandles.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+  46(10), 1374--1389.
 
 \end{thebibliography}

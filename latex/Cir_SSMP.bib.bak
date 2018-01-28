@@ -16,3 +16,35 @@
   year={2015},
   publisher={Elsevier}
 }
+
+@article{zhang2016multiobjective,
+  title={Multiobjective Approaches for the Ship Stowage Planning Problem Considering Ship Stability and Container Rehandles},
+  author={Zhang, Zizhen and Lee, Chung-Yee},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+  volume={46},
+  number={10},
+  pages={1374--1389},
+  year={2016},
+  publisher={IEEE}
+}
+
+@article{avriel2000container,
+  title={Container ship stowage problem: complexity and connection to the coloring of circle graphs},
+  author={Avriel, Mordecai and Penn, Michal and Shpirer, Naomi},
+  journal={Discrete Applied Mathematics},
+  volume={103},
+  number={1},
+  pages={271--279},
+  year={2000},
+  publisher={Elsevier}
+}
+
+@article{avriel1998stowage,
+  title={Stowage planning for container ships to reduce the number of shifts},
+  author={Avriel, Mordecai and Penn, Michal and Shpirer, Naomi and Witteboon, Smadar},
+  journal={Annals of Operations Research},
+  volume={76},
+  pages={55--71},
+  year={1998},
+  publisher={Springer}
+}
